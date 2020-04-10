@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class FixedRateConsumer {
 
-    private final Logger log = LoggerFactory.getLogger(FixedRateConsumer.class);
-
-    @RabbitListener(queues = "fixedrate")
-    public void listen(String message){
-        log.info("Consuming {} " + message);
-    }
+//    private final Logger log = LoggerFactory.getLogger(FixedRateConsumer.class);
+//
+//    @RabbitListener(queues = "fixedrate")
+//    public void listen(String message){
+//        log.info("Consuming {} " + message);
+//    }
 }
